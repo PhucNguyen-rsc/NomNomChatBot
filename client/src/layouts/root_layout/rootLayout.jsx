@@ -11,10 +11,10 @@ const RootLayout = () => {
     return (
         <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
             <div>
-                <header  className="flex justify-between items-center border-b border-gray-500">
-                    <Link to = "/"  className="flex items-center mt-[20px] mb-[20px]"> {/* Navigate without triggering effect */}
-                        <img src = "/logo.avif" alt="" className="ml-[10px] w-20 h-20 rounded-full object-cover"/>
-                        <span  className="text-sm ml-[10px] font-medium">Therapy Chatbot</span>
+                <header  className="flex justify-between items-center mt-[20px] mb-[20px]">
+                    <Link to = "/"  className="flex items-center"> {/* Navigate without triggering effect */}
+                        <img src = "/user_profile.jpeg" alt="" className="w-15 h-15 ml-[20px] rounded-full object-cover"/>
+                        <span className="text-sm ml-[10px] font-medium">Nom Nom Chatbot❤️</span>
                     </Link>
                     <div className = "mr-[40px]">
                         <SignedIn>
