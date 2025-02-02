@@ -10,7 +10,7 @@ const Sidebar = () => {
         <nav className="mt-4">
           <ul>
             <li className="mb-2 hover:bg-[#1a1a2a] cursor-pointer" onClick={(e)=>{navigate("/dashboard/chats/1")}}>Create a new Chat</li>
-            <li className="mb-2 hover:bg-[#1a1a2a] cursor-pointer">Explore Nom Nom</li>
+            <li className="mb-2 hover:bg-[#1a1a2a] cursor-pointer" onClick={()=>{navigate("https://yanlinwu0531.github.io/")}}>Explore Nom Nom</li>
           </ul>
         </nav>
         <h3 className="mt-6 text-sm font-bold">Recent Chats</h3>
